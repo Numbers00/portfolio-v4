@@ -57,3 +57,12 @@ body {
 .about-mid-div {
   width: 100vw;
 }
+
+.logo-img {
+  height: 128px;
+  background-color: white;
+}
+
+.tns-outer button {
+  display: none;
+}
