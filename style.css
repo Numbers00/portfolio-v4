@@ -66,3 +66,15 @@ body {
 .tns-outer button {
   display: none;
 }
+
+.solo-projects-slider-container {
+  position: relative;
+  width: 120vw !important;
+  right: 10vw;
+}
+
+.solo-project-img {
+  width: 40vw;
+  height: 24.77vh;
+  object-fit: cover;
+}
