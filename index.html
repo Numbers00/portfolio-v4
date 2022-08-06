@@ -13,8 +13,8 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
-    <div class="container-fluid">
+  <nav class="navbar navbar-dark navbar-expand-lg bg-dark sticky-top">
+    <div class="container">
       <a class="navbar-brand" href="#">My Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,10 @@
             <a class="nav-link active" aria-current="page" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#">Group Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Solo Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -269,13 +272,13 @@
         </div>
         <div class="about-bottom-div bg-theme1 w-100">
           <div class="about-bottom-contents container d-flex justify-content-between">
-            <div class="about-bottom-left-div col-7 d-flex flex-column py-4">
+            <div class="about-bottom-left-div col-7 d-flex flex-column ms-4 py-4">
               <h2 class="fw-bold">My Tech Stack</h2>
               <ul>
                 <li class="fs-5">Bootstrap, React.js, Node.js/Express, MongoDB Atlas</li>
                 <li class="fs-5">Bootstrap, Vue.js, Django, PostgreSQL</li>
                 <li class="fs-5">Bootstrap, jQuery, Laravel, MySQL</li>
-                <li class="fs-5">Bootstrap, Node.js/</li>
+                <li class="fs-5">Bootstrap, Node.js/Express, MongoDB Atlas</li>
               </ul>
             </div>
             <div class="about-bottom-right-div col-5 d-flex flex-column justify-content-center">
@@ -328,6 +331,69 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="soloProjectsSection" class="bg-theme1 w-100">
+      <div class="solo-projects-contents position-relative container d-flex flex-column py-4">
+        <hr class="horizontal-divider position-absolute top-0 start-0 w-100 ms-4">
+        <div class="section-label bg-theme3 position-absolute rounded-pill top-0 start-0 p-3">
+          <h2 class="fw-bold text-white mb-0 mx-4">Projects I Worked On</h2>
+        </div>
+        <div class="project-group1 d-flex flex-column mt-4 mb-3 pt-4">
+          <img src="assets/imgs/UPM Social Compas Matchmaking Site.jpg" class="project-img img-fluid mb-2" alt="UPM Social Compas">
+          <div class="project-info px-2">
+            <h2 class="fw-bold">UPM - Social Compas</h2>
+            <p class="fs-5">
+              A matchmaking and friendship compatibility website where you can see your compatibility
+              with others by matching your zodiac signs. Users on the website can befriend each other,
+              see friend requests, rate and comment on their compatibility results, and so on.
+              <br><br>
+              Tech Stack: PostgreSQL, Django, Bootstrap
+            </p>
+          </div>
+        </div>
+        <div class="project-group1 d-flex flex-column mt-4 mb-3 pt-4">
+          <img src="assets/imgs/UPM Sellpoint CRMS.jpg" class="project-img img-fluid mb-2" alt="UPM Sellpoint">
+          <div class="project-info px-2">
+            <h2 class="fw-bold">UPM - Sellpoint</h2>
+            <p class="fs-5">
+              A CRMS website where users can view a large collection of products and where managers 
+              can view and edit on a large number of users, the two of which were generated from web
+              scraping and randomuser.me’s API respectively. The website features multiple concurrent
+              filtering and sorting options for the products and users (for managers), and was made
+              to complement a product catalog website.
+              <br><br>
+              Tech Stack: PostgreSQL, Django, Bootstrap
+            </p>
+          </div>
+        </div>
+        <div class="project-group1 d-flex flex-column mt-4 mb-3 pt-4">
+          <img src="assets/imgs/UPM Online Bookshop.jpg" class="project-img img-fluid mb-2" alt="UPM Code & Chill">
+          <div class="project-info px-2">
+            <h2 class="fw-bold">UPM - Code & Chill</h2>
+            <p class="fs-5">
+              An online bookshop website for manga, light novels, and western novels. Users here
+              can view a large gallery of such items, filter and sort them (the books have their
+              associated tags), view their information and author, and buy them. The buying part
+              features a full-fledged progress bar for the checkout, shipping, and so on.
+              <br><br>
+              Tech Stack: PostgreSQL, Django, Vue.js, Bootstrap
+            </p>
+          </div>
+        </div>
+        <div class="project-group1 d-flex flex-column mt-4 mb-3 pt-4">
+          <img src="assets/imgs/UPM Synergy Listmaking App.jpg" class="project-img img-fluid mb-2" alt="UPM Synergy">
+          <div class="project-info px-2">
+            <h2 class="fw-bold">UPM - Synergy</h2>
+            <p class="fs-5">
+              A Kanban-style list-making website where notes are organized in lists inside boards
+              that are inside cards. Users on the website can create or delete cards, add or delete
+              boards, and add, update, or delete notes.
+              <br><br>
+              Tech Stack: PostgreSQL, Django, Vue.js, Bootstrap
+            </p>
           </div>
         </div>
       </div>
