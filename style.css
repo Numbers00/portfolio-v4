@@ -102,11 +102,11 @@ body {
 
   .about-contents .horizontal-divider,
   .about-contents .section-label {
-    display: none !important;
+    margin-top: 32px !important;
   }
 
-  .about-middle-contents .horizontal-divider {
-    display: block !important;
+  .about-top-div {
+    padding-top: 32px !important;
   }
 
   .about-top-contents {
