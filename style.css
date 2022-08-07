@@ -82,3 +82,85 @@ body {
 .contact-form {
   width: 640px;
 }
+
+@media screen and (max-width: 768px) {
+  html, body {
+    overflow-x: hidden !important;
+  }
+
+  .section-label {
+    margin-left: 8px !important;
+  }
+
+  .about-top-contents {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .about-top-left-div {
+    padding-left: 8px;
+    padding-right: 8px;
+    order: 2;
+  }
+
+  .about-top-left-div a {
+    word-wrap: break-word;
+  }
+
+  .about-top-right-div {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    order: 1;
+  }
+
+  .vertical-divider {
+    display: none !important;
+  }
+
+  .about-middle-contents {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .about-middle-contents .horizontal-divider {
+    margin-left: 0 !important;
+  }
+
+  .about-mid-left-div {
+    width: 100% !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  .about-mid-right-div {
+    width: 100% !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  .about-bottom-contents {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .about-bottom-left-div {
+    width: 100% !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  .about-bottom-right-div {
+    width: 100vw !important;
+  }
+
+  #groupProjectsSection {
+    padding-top: 48px !important;
+  }
+
+  .contact-form {
+    width: 80vw !important;
+  }
+}
