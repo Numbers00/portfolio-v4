@@ -74,12 +74,10 @@ const scriptModule = (() => {
 
   soloProjectSlider.events.on('transitionEnd', (info) => {
     const middle = document.querySelector('.solo-projects-slider')
-      .querySelector(`#${document.querySelector('.solo-projects-slider')
-      .querySelectorAll('.tns-slide-active')[1].id}`)
+      .querySelectorAll('.tns-slide-active')[1]
       .querySelector('.solo-project-img');
     
     const currSoloProject = projectDescs.find((project) => {
-      console.log(project.name, middle.getAttribute('alt'), project.name === middle.getAttribute('alt'));
       return project.name === middle.getAttribute('alt');
     });
 
