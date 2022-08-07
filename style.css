@@ -92,13 +92,23 @@ body {
     overflow-x: hidden !important;
   }
 
+  #topCarousel {
+    display: none !important;
+  }
+
   .section-label {
     margin-left: 8px !important;
+  }
+
+  .about-contents .horizontal-divider:nth-child(1),
+  .about-contents .section-label {
+    display: none !important;
   }
 
   .about-top-contents {
     display: flex !important;
     flex-direction: column !important;
+    padding-top: 0 !important;
   }
 
   .about-top-left-div {
