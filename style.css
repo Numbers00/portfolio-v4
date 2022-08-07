@@ -78,3 +78,7 @@ body {
   height: 24.77vh;
   object-fit: cover;
 }
+
+.contact-form {
+  width: 640px;
+}
