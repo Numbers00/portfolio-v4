@@ -48,7 +48,7 @@ const scriptModule = (() => {
 
   const techSlider = tns({
     container: '.tech-slider',
-    items: 3,
+    items: 1,
     slideBy: 'page',
     autoWidth: true,
     autoplay: true,

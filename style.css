@@ -58,6 +58,10 @@ body {
   width: 100vw;
 }
 
+.tech-slider .tns-item {
+  text-align: center;
+}
+
 .logo-img {
   height: 128px;
   background-color: white;
